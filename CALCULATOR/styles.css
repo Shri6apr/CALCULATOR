@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculator {
+    height: 500px;
+    width: 300px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgb(62, 60, 60);
+}
+
+.screen {
+    height: 150px;
+    width: 100%;
+    border: none;
+    font-size: 2rem;
+    font-weight: 200;
+    color: aliceblue;
+    background-color: black;
+    text-align: right;
+
+
+    padding: 0.5rem;
+
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button{
+    flex: 0  0 22%;
+    margin: 5px 0;
+    border:1px solid black;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.optr-btn
+{
+    background-color: yellow;
+    color: black;
+}
+
+.eql-btn{
+    background-color: green;
+    color: black;
+}
+.clr-btn {
+    background-color: red;
+    color: white;
+}
+.Aclr-btn{
+    background-color: red;
+    color: white;
+}
